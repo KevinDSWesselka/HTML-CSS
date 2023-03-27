@@ -1,0 +1,73 @@
+.flex-item {
+    width: 100px;
+    height: 100px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.base {
+    margin-bottom: 15px;
+    background-color: #d0d3d4;
+    border-radius: 4px;
+}
+
+.box1 {
+    background-color: #63b1bc;
+}
+
+.box2 {
+    background-color: #1f2a44;
+}
+
+.box3 {
+    background-color: #ed145b;
+}
+
+.box4 {
+    background-color: #efb661;
+}
+
+h1 {
+    width: fit-content;
+    margin: auto;
+}
+
+/* Insira o código abaixo */
+
+.container1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container3 {
+    display: flex;
+    justify-content: center;
+}
+
+.container4 {
+    display: flex;
+    justify-content: space-between;
+}
+.container5 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 60px 0;
+}
+.container6 {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 260px ;
+}
+
+.container-desafio {
+    display: flex;
+    position: left;
+}
+/* Apenas ivnerti a ordem, provavelmente avia uma maneira de fazer isso com CSS
+   Porem o prazo começou a ficar a pertado e não queria perder a entrega */
