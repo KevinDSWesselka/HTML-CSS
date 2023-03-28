@@ -1,3 +1,7 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     padding: 0%;
     margin: 0%;
@@ -18,7 +22,7 @@ body {
 
 .titulo{
     color: #32b9cd;
-    font-weight: 250;
+    font-weight: 550;
 }
 
 .header .container {
@@ -42,10 +46,11 @@ body {
 .banner {
     background-image: url(../assests/img/bg-jelly-fish-para_outras_pags.png);
     background-size: cover;
+    background-image: no-repeat;
 }
-
+    
 .banner .container {
-    height: 55vh;
+    height: 85vh;
     justify-content: center;
     align-items: center;
 }
@@ -81,3 +86,23 @@ body {
     align-items: center;
 }
 
+.box h4 {
+    color: #ce477f;
+    font-weight: bold;
+
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #32b9cd;
+    color: white;
+}
+
+.footer .container{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
